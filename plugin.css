@@ -3,22 +3,6 @@
     padding: 0px;
 }
 
-@keyframes headingEffect {
-    from {
-        transform: translate(0px);
-        background-color: blue;
-    }
-
-    to {
-        transform: translate(30px);
-        background-color: red;
-    }
-}
-
-#heading {
-    animation: headingEffect, 2s, ease-in, 0s, infinite, normal;
-}
-
 body {
     background-color: #302c2c;
     /* padding: 100px; */
