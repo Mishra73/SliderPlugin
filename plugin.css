@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@keyframes headingEffect {
+    from {
+        transform: translate(0px);
+        background-color: blue;
+    }
+
+    to {
+        transform: translate(30px);
+        background-color: red;
+    }
+}
+
+#heading {
+    animation: headingEffect, 2s, ease-in, 0s, infinite, normal;
+}
+
+body {
+    background-color: #302c2c;
+    /* padding: 100px; */
+    color: rgb(248, 245, 239);
+    text-align: justify;
+    margin: 0px 30px;
+    font-size: larger;
+}
+
+body>div {
+
+    text-align: center;
+}
+
+body>div>img {
+    height: 400px;
+    width: 600px;
+    /* padding:0px 220px; */
+    cursor: pointer;
+}
+
+#popUp {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, .6);
+    display: none;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    z-index: 100;
+    margin-left: 0px;
+    text-align: center;
+
+
+}
+
+#popUp>img {
+    height: 500px;
+    width: 760px;
+    padding-top: 55px;
+}
+
+#leftarrow {
+    font-size: 40px;
+    position: absolute;
+    top: 50vh;
+    left: 100px;
+    background-color: #121111;
+    cursor: pointer;
+}
+
+#rightarrow {
+    font-size: 40px;
+    position: absolute;
+    top: 50vh;
+    right: 100px;
+    background-color: rgb(21, 20, 20);
+    cursor: pointer;
+}
+
+#cross {
+    font-size: 30px;
+    position: absolute;
+    top: 5vh;
+    right: 100px;
+    background-color: rgb(8, 8, 8);
+    border-radius: 30%;
+    cursor: pointer;
+}
+
+#heading {
+    padding: 20px;
+    border: 6px dotted rgb(245, 243, 243);
+    border-radius: 30px;
+    width: fit-content;
+    background-color: rgb(71, 69, 69);
+    color: rgb(221, 224, 40);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    border-left: 6px dotted rgb(47, 0, 255);
+    border-top: 6px dotted red;
+    border-right: 6px dotted rgb(6, 202, 22);
+}
