@@ -86,3 +86,12 @@ body>div>img {
     border-top: 6px dotted red;
     border-right: 6px dotted rgb(6, 202, 22);
 }
+#heading>b{
+    color: aqua;
+    font-size: x-large;"
+}
+#MainHeading{
+    margin:40px;
+    display: flex; 
+    justify-content: center;
+}
